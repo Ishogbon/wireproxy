@@ -1,0 +1,14 @@
+blinker>=1.4,<1.8;
+brotli>=1.0.9
+certifi>=2019.9.11h2>=4.0; 
+python_version>="3.6"
+hyperframe>=6.0; python_version>="3.6"
+kaitaistruct>=0.7
+pyasn1>=0.3.1
+pyOpenSSL>=22.0.0
+pyparsing>=2.4.2
+pysocks>=1.7.1
+wsproto>=0.14
+zstandard>=0.14.1
+setuptools
+h2

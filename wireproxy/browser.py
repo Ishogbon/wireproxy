@@ -104,7 +104,7 @@ class BrowserCommonMixin:
             )
 
 
-class ChromeProxy(InspectRequestsMixin):
+class ChromeProxy(InspectRequestsMixin, BrowserCommonMixin):
     """Extend the Chrome webdriver to provide additional methods for inspecting requests."""
 
     def __init__(self):
@@ -122,5 +122,4 @@ class ChromeProxy(InspectRequestsMixin):
         if proxy_options.get("auto_config", True):
             for key, value in config.items():
                 proxy_options[key] = value
-
         self.proxy_options = proxy_options
